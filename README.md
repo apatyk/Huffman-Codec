@@ -5,6 +5,8 @@
 
 This program utilizes byte-level Huffman compression/decompression to decrease file size. 
 
+The algorithm behind this codec represents symbols with varying length bit patterns based on frequency in a file to save space. Therefore, this codec works best on data where symbols greatly vary in frequency in a file.
+
 ## Usage
 
 The program produces `.huf` compressed archive files that can be decompressed.
